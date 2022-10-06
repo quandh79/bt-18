@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multipage.form.Controller">
+   <children>
+      <Button layoutX="49.0" layoutY="35.0" mnemonicParsing="false" onAction="#backToList" text="&lt;&lt;Back to list" />
+      <TextField fx:id="txtCode" layoutX="196.0" layoutY="123.0" prefHeight="31.0" prefWidth="276.0" promptText="Code" />
+      <TextField fx:id="txtName" layoutX="196.0" layoutY="191.0" prefHeight="31.0" prefWidth="276.0" promptText="Name" />
+      <TextField fx:id="txtHour" layoutX="196.0" layoutY="262.0" prefHeight="31.0" prefWidth="276.0" promptText="Hours" />
+      <Button onAction="#submitS" layoutX="392.0" layoutY="306.0" mnemonicParsing="false" text="Submit" />
+      <Text fx:id="errors" fill="#f20a0a" layoutX="237.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" visible="false" />
+   </children>
+</Pane>
